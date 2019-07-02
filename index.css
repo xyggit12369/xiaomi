@@ -743,12 +743,37 @@ img{
     padding:45px 0 0;
     box-sizing: border-box;
     border-top:2px solid #ffac13;
+    position: relative;
 }
 .nr:hover{
     box-shadow: 0 -3px 15px 3px #616161;
     transform:translateY(-2px);
     transition: 0.5s;
     cursor: pointer;
+}
+.nr:hover .boult1{
+    background-color: #e0e0e0;
+}
+.nr:hover .boult{
+    background-color: #e0e0e0;
+}
+.nr1:hover .boult1{
+    background-color: #e0e0e0;
+}
+.nr1:hover .boult{
+    background-color: #e0e0e0;
+}
+.nr2:hover .boult1{
+    background-color: #e0e0e0;
+}
+.nr2:hover .boult{
+    background-color: #e0e0e0;
+}
+.nr3:hover .boult1{
+    background-color: #e0e0e0;
+}
+.nr3:hover .boult{
+    background-color: #e0e0e0;
 }
 .hab{
     margin: 0 10px 18px;
@@ -817,8 +842,10 @@ img{
     margin-top:10px;
 }
 .ya1:hover{
-    
+    background-color:#ff6700;
+
 }
+
 .hab1{
     margin: 0 10px 18px;
     font-size: 16px;
@@ -975,6 +1002,10 @@ dd:hover{
     float:left;
     border-right: 1px solid #e0e0e0;
 }
+.fw:hover{
+    color:#ff6700;
+    cursor: pointer;
+}
 .font{
     width:1226px;
     height:192px;
@@ -1003,6 +1034,9 @@ dd:hover{
     margin: 10px 0 0;
     font-size: 12px;
     color:#333;
+}
+.ez:hover{
+    color:#ff6700;
 }
 .xm2{
     width: 248px;
@@ -1090,6 +1124,7 @@ dd:hover{
     transform:translateY(-2px);
     transition: 0.5s; */
     cursor: pointer;
+    color:#ff6700;
 }
 .fz:hover{
     /* box-shadow: 0 -3px 15px 3px #616161;
@@ -1242,9 +1277,54 @@ h4{
     background-color: #757575;
     float:right;
     border-radius:10px;
+    overflow: hidden;
 }
 .dddd:hover{
     cursor: pointer;
     background-color: rgba(255, 255, 255, 0.3);
     border-color:#757575;
+}
+.boult1{
+    width: 20px;
+    height: 24px;
+    padding: 12px 0;
+    font-size: 18px;
+    color:#fafafa;
+    line-height: 24px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    /* background-color: #ff6700; */
+    /* opacity: 0; */
+}
+.boult{
+    width: 20px;
+    height: 24px;
+    padding: 12px 0;
+    font-size: 18px;
+    line-height: 24px;
+    position: absolute;
+    top: 50%;
+    right:0;
+    color:#fafafa;
+    margin-top: -20px;
+    /* background-color: #ff6700; */
+    /* opacity: 0; */
+}
+.b5{
+    width:1226px;
+    height:28px;
+    font-size:12px;
+    margin:4px 0 0;
+    padding:0 0 0 67px;
+}
+.b5-a{
+    width:85px;
+    height:28px;
+    margin:0 0 15px;
+    float:left;
+}
+.b5-a img{
+    width:85px;
+    height:28px;
 }
